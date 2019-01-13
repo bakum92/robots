@@ -1,0 +1,69 @@
+<!DOCTYPE HTML>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<title>Как написать robots.txt</title>
+<h1>Как написать robots.txt</h1>
+</head>
+<body>
+<h1>Директивы robots.txt</h1>
+<p>Директивы — это правила для роботов. Есть спецификация W3C от 30 января 1994 года и расширенный стандарт от 1996 года.
+Однако не все поисковые системы и роботы поддерживают те или иные директивы.
+В связи с этим для нас полезнее будет знать не стандарт, а то, как руководствуются теми или иными директивы основные роботы.
+<br>Давайте рассмотрим по порядку.
+<br><font style="background-color: #ff00ff";>User-agent</font>
+<br> самая главная директива, определяющая для каких роботов далее следуют правила.
+<br> всех роботов:
+<br><font style="background-color: #ff00ff";>User-agent: *</font>
+<br> конкретного бота:
+<br><font style="background-color: #ff00ff";>User-agent: GoogleBot</font>
+<br><font style="background-color: #ffff00";>Обратите внимание, что в robots.txt не важен регистр символов.
+Т.е. юзер-агент для гугла можно с таким же успехом записать соледующим образом:
+user-agent: googlebot</font>
+<br> приведена таблица основных юзер-агентов различных поисковых систем.</p>
+<center>
+<table class="tg">
+  <tr>
+    <th class="tg-0lax">Бот</th>
+    <th class="tg-0lax">Функция</th>
+  </tr>
+  <tr>
+    <td class="tg-0lax" colspan="2">Google</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Googlebot</td>
+    <td class="tg-0lax">основной индексирующий робот Google</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Googlebot-News</td>
+    <td class="tg-0lax">Google Новости</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Googlebot-Image</td>
+    <td class="tg-0lax">Google Картинки</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Googlebot-Video</td>
+    <td class="tg-0lax">видео</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mediapartners-Google</td>
+    <td class="tg-0lax">Google AdSense, Google Mobile AdSense</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">Mediapartners</td>
+    <td class="tg-0lax">Google AdSense, Google Mobile AdSense</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">AdsBot-Google</td>
+    <td class="tg-0lax">проверка качества целевой страницы</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax">AdsBot-Google-Mobile-Apps</td>
+    <td class="tg-0lax">Робот Google для приложений</td>
+  </tr>
+</table>
+</center>
+</body>
+</html>
